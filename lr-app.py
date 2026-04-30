@@ -4,7 +4,7 @@ import numpy as np
 import sklearn
 import pickle
 
-model = pickle.load(open('linear_regression_model.pkl', 'rb'))
+model = pickle.load(open('c:/Users/gc146/OneDrive/Desktop/GITDEMO/Ml_sales_predicproject/linear_regression_model.pkl', 'rb'))
 
 # let's create web app
 st.title("Scikit-learn Linear Regression model")
